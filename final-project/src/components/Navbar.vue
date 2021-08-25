@@ -34,7 +34,7 @@ export default {
     logout () {
       localStorage.clear()
       this.$store.commit('SET_ISLOGIN', false)
-      this.$router.push('/customers/login')
+      this.$router.push('/login')
     }
   },
   computed: {
